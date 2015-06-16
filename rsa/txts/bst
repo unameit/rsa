@@ -1,0 +1,17 @@
+		Advanced Set Representation Methods
+
+This chapter introduces data structers for sets that permit more efficient
+implementation of common collections of set operations than those of the
+previous chapter. These structures, however, are more complex and are often
+only appropriate for large sets. All are based on various kinds of trees,
+such as binary trees, tries, and balanced trees.
+
+	Binary Search Trees
+We shall begin with binary search trees, a basic data structure for
+representing sets whose elements are ordered by some linear order. We shall,
+as usual, denote that order by <. This structure is useful when we have a
+set of elements from a universe so large that is impractical to use the
+elements of themselves as indices into arrays. An example of such universe
+would be set of possible identifiers in a Pascal program. A binary search
+tree can support the set operations INSERT, DELETE, MEMBER, and MIN, taking
+O(log n) steps per operation on the average for a set of n elements.

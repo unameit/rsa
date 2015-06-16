@@ -1,0 +1,7 @@
+In problem arising in computer science, mathematics, engineering, and many
+other disciplines we often need to represent arbitrary relationship among
+data objects. Directed and undirected graphs are natural models of such
+relationships. This chapter presents the basic data structures that can be
+used to represent directed graphs. Some basic algorithms for determining the
+connectivity of directed graphs and for finding shortest path are also
+presented.
